@@ -1,0 +1,17 @@
+{
+  "name": "adder-template",
+  "version": "1.0.0",
+  "bin": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "execute": "node ./src/index.js --path ./temp",
+    "test": "node ./src/test.js"
+  },
+  "dependencies": {
+    "@svelte-add/core": "^2.0.1"
+  },
+  "devDependencies": {
+    "@svelte-add/testing-library": "^2.0.1"
+  }
+}
