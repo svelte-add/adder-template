@@ -1,4 +1,4 @@
-# composer-template
+# adder-template
 
 This is a adder template for an external adder. External adder are not intended to be published within the `@svelte-add` organization. Thus this external adder will not appear on the `svelte-adder` website.
 
