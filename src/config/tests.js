@@ -5,5 +5,12 @@ export const tests = defineAdderTests({
     files: [],
     options,
     optionValues: [{ demoOption: true }],
-    tests: [],
+    tests: [
+        {
+            name: 'testing test',
+            run: async ({ elementExists }) => {
+                await elementExists('.test');
+            },
+        },
+    ],
 });

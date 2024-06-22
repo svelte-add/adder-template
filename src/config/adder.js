@@ -3,12 +3,12 @@ import { options } from './options.js';
 
 export const composer = defineAdderConfig({
     metadata: {
-        id: 'add-template',
-        package: 'add-template',
+        id: 'adder-template',
+        package: 'adder-template',
         version: '1.0.0',
         name: 'Adder Template',
         description: 'This a adder demo template',
-        category: categories.styling,
+        category: categories.css,
         environments: { kit: true, svelte: true },
     },
     options,
