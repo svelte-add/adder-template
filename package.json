@@ -5,6 +5,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
+    "postinstall": "npx playwright install chromium",
     "execute": "node ./src/index.js --path ./temp",
     "test": "node ./src/test.js"
   },
