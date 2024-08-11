@@ -1,18 +1,21 @@
 {
   "name": "adder-template",
   "version": "1.0.0",
-  "bin": "index.js",
   "license": "MIT",
   "type": "module",
+  "bin": "./execute.js",
   "scripts": {
     "postinstall": "npx playwright install chromium",
-    "execute": "node ./src/index.js --path ./temp",
-    "test": "node ./src/test.js"
+    "execute": "node ./src/execute.js --path ./temp",
+    "test": "vitest"
   },
   "dependencies": {
-    "@svelte-add/core": "^2.7.0"
+    "@svelte-add/core": "^2.10.4"
   },
   "devDependencies": {
-    "@svelte-add/testing-library": "^2.0.17"
+    "@svelte-add/testing-library": "https://pkg.pr.new/svelte-add/svelte-add/@svelte-add/testing-library@544",
+    "@types/node": "^22.2.0",
+    "playwright": "^1.46.0",
+    "vitest": "^2.0.5"
   }
 }

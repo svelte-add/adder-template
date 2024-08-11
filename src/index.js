@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import { defineAdder } from '@svelte-add/core';
 import { composer } from './config/adder.js';
 import { checks } from './config/checks.js';
